@@ -1,0 +1,17 @@
+{
+  "default":{
+    "expirationDate": "1275",
+    "cvc": "123"
+  },
+  "brand": {
+    "visa": "4242424242424242",
+    "visaDebit": "4000056655665556",
+    "mastercard": "5555555555554444",
+    "declined": "4000000000000002",
+    "insufficient": "4000000000009995",
+    "3dsRequired": "4000002760003184"
+  },
+  "country": {
+    "colombia": "4000001700000003"
+  }
+}

@@ -1,6 +1,12 @@
 # Cypress Test
 
-## Init project
+## Prerequisites
+Having installed:
+- [Node.js](https://nodejs.org/) 
+- [Yarn](https://nodejs.org/)
+- [Docker](https://www.docker.com/get-started/) optional, only if you wanto validate [Test pipeline locally](#test-pipeline-locally)
+
+## Init Project
 
 Copy the content of .env.example in a new file .env and add a value for the variables
 
@@ -9,7 +15,7 @@ run:
 yarn install --frozen-lockfile
 ```
 
-## test pipeline locally
+## Test Pipeline Locally
 
 ```shell
 brew install act #install for testing pipeline locally
