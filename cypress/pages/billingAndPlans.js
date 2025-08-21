@@ -1,0 +1,21 @@
+export const billingAndPlans = {
+  title: '[data-cy="billingPlanTitle"]',
+  annualPlanButton: '[data-cy="annual-toggle-item"]',
+  professionalPlanButton: ':nth-child(2) > .kLSfRE > [data-cy="planButton"]',
+  professionalPlanButtonGrayed: ':nth-child(2) > .kLSfRE',
+  form: {
+    cardHolderBox: '[id="cardHolder"]',
+    emailBox: '[id="email"]',
+    phoneNumberBox: '[id="phone"]',
+    iframe: 'iframe[title="Secure card payment input frame"]',
+    upgradePlanButton: '.iTEGAj > .sc-bcXHqe',
+  },
+  selectedPlanLable: '[data-cy="selectedPlan"]',
+  valueTimePlanLabel: '.sc-bcXHqe > .gBVXfB',
+  cardHolderLable: '.sc-eCihoo',
+  lastFourCCNumbersLabel: '.iXzkVN > :nth-child(5)',
+  addedCardLink: '[data-cy="addedCardLink"]',
+  invoicesTable: '.sc-iNyZoU',
+  invoiceNumber: ':nth-child(1) > .ikvKkX > .sc-bcXHqe',
+  invoiceStatus: '[data-cy="rows"] > :nth-child(3) > .sc-bcXHqe',
+}

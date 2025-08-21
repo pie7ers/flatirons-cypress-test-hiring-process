@@ -1,0 +1,25 @@
+{
+  "name": "flatirons-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@commitlint/config-conventional": "^19.8.1",
+    "cypress": "^12.17.3",
+    "cypress-iframe": "^1.0.1",
+    "cypress-real-events": "^1.14.0",
+    "easy-yopmail": "^5.2.1"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "yarn cypress run --reporter cypress-mochawesome-reporter",
+    "eslint-cy": "yarn eslint cypress/**/*.js --no-error-on-unmatched-pattern"
+  },
+  "devDependencies": {
+    "commitlint": "^19.8.1",
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "dotenv": "^17.2.1",
+    "eslint": "^9.33.0",
+    "eslint-plugin-cypress": "^5.1.1"
+  }
+}
